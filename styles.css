@@ -1,0 +1,158 @@
+/*****************************
+GENERAL STYLING
+******************************/
+
+body {
+	background-color: salmon;
+	font-family: Frontage, sans-serif;
+	margin-top: 3%;
+	font-size: normal;
+}
+
+header {
+	background-color: green;
+	padding: 0;
+}
+
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+h1 {
+	text-align: center;
+	margin: 0;
+	padding: 8% 0 2% 0;
+}
+
+#wrapper {
+	width: 100%;
+	margin: 0 auto;
+	max-width: 1000px;
+	min-width: 700px;
+	background-color: white;
+	height: auto;
+}
+
+/*******************************
+ARTICLE STYLES
+******************************/
+
+main {
+	width: 60%;
+}
+
+aside {
+	width: 28%;
+}
+
+main, aside {
+	margin: 30px 3%;
+	float: left;
+	font-size: 0.875em;
+}
+
+
+/*******************************************
+NAVIGATION
+********************************************/
+
+nav {
+	text-align: center;
+	padding: 2% 0;
+	margin: 5% 0 0;
+	background-color: lightgreen;
+}
+
+nav ul {
+	list-style: none;
+	text-decoration: none
+
+}
+
+nav li {
+	display: inline-block;
+	width: 18%
+}
+
+nav a {
+	text-decoration: none;
+	font-weight: 600;
+}
+
+a:link {
+	color: grey;
+}
+
+
+a:hover, a:active, a:focus {
+	color: green;
+	text-decoration: underline;
+}
+
+
+/**********************************
+IMAGE STYLES
+**********************************/
+
+
+figure {
+	width: 100%;
+	max-width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+figure img {
+	max-width: 100%
+}
+
+figcaption {
+	display: block;
+	margin-top: 0.3em;
+	font-size: 0.75em;
+	text-transform: uppercase;
+}
+
+/**************************************
+FOOTERS
+***************************************/
+	
+
+#footer {
+	background-color: green;
+	text-align: center;
+	font-family: 'Dosis', sans-serif;
+	font-size: 1em;
+	height: 4%;
+	padding-top: 1%;
+	clear: both;
+	padding: 20px 10px;
+	text-align: center;
+}
+
+#footer p {
+	font-size: .9em;
+}
+
+footer {
+	font-family: 'Open Sans', sans-serif;
+	font-size: .9em;
+	padding-bottom: 1em;
+	padding-top: .3em;
+}
+
+.social-icon{
+	width: 3.5%;
+	height: auto;
+}
+
+
+
+
+
+
